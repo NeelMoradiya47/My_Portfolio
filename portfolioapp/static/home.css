@@ -1,0 +1,37 @@
+hr {
+    color: black;
+}
+
+#img1 {
+    width: 400px;
+    height: 285px;
+    margin-left: 115px;
+}
+
+#img2 {
+    margin-left: 68px;
+}
+
+#more_about {
+    color: white;
+    margin-left: 480px;
+    margin-bottom: 10px;
+}
+
+#projects {
+    margin-left: 10px;
+}
+
+#view_projects {
+    color: white;
+    margin-left: 464px;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-left: 25px;
+}
+
+.card {
+    align-items: center;
+}

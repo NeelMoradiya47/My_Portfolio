@@ -1,0 +1,92 @@
+{% extends 'master.html' %}
+{% load static %}
+
+{% block title %}
+About Me - Neel Moradiya
+{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'about.css' %}">
+
+<section id="about" class="py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="display-4 pb-3">About Me</h2>
+
+                <h4 class="display-6">Inroduction:</h4>
+
+                <p class="lead" id="mrg" style="font-size: 1.5rem;">I'm <span id="name">Neel Moradiya,</span> a
+                    passionate web
+                    developer.</p>
+
+                <ul id="mrg">
+                    <li class="lead">I own a solid foundation in programming languages
+                        and
+                        computer science principles, which I have further assisted through hands-on projects
+                        showcasing my
+                        technical proficiency.</li>
+                    <li class="lead">Excited to channel my creativity and adaptability
+                        towards
+                        making meaningful contributions within a
+                        dynamic IT team, I am enthusiastic about launching my rewarding journey in software development.
+                    </li>
+                    <li class="lead">My
+                        ability to collaborate effectively in team environments, coupled with a strong desire to learn
+                        and
+                        embrace new technologies, positions me well to contribute my technical skills and innovative
+                        thinking to a thriving IT team.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row py-3">
+            <div class="col-12">
+                <h4 class="display-6">Work History:</h4>
+                <p class="lead" id="mrg">Python Django Developer</p>
+                <p class="lead" id="mrg">Web Developer, Bhavnagar</p>
+                <ul id="mrg">
+                    <li class="lead">Stayed current on developments in related Python frameworks.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <h4 class="display-6">Technical Profile:</h4>
+                <table>
+                    <tr>
+                        <td>
+                            <ul id="mrg">
+                                <li class="lead">Python</li>
+                                <li class="lead">HTML</li>
+                                <li class="lead">CSS</li>
+                                <li class="lead">jQuery</li>
+                                <li class="lead">JavaScript</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul id="mrg">
+                                <li class="lead">MySQL</li>
+                                <li class="lead">Django</li>
+                                <li class="lead">Visual Studio Code</li>
+                                <li class="lead">GitHub</li>
+                                <li class="lead">Bootstrap</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="col-6">
+                <h4 class="display-6">Competencies:</h4>
+                <ul id="mrg">
+                    <li class="lead">Python Django</li>
+                    <li class="lead">HTML</li>
+                    <li class="lead">Web-based software development</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
