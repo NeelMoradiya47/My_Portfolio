@@ -13,9 +13,7 @@ hr {
 }
 
 #more_about {
-    color: white;
-    margin-left: 480px;
-    margin-bottom: 10px;
+    margin-left: 30px;
 }
 
 #projects {
@@ -23,15 +21,31 @@ hr {
 }
 
 #view_projects {
+    margin-left: 25px;
+}
+
+#more_about,
+#view_projects {
     color: white;
-    margin-left: 464px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .card {
     margin-left: 25px;
+    margin-bottom: 20px;
 }
 
-.card {
-    align-items: center;
+.card-text {
+    font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+
+    #img1,
+    #img2,
+    #view_projects,
+    .card {
+        margin-left: 0;
+    }
 }
