@@ -26,6 +26,7 @@ hr {
 
 #more_about,
 #view_projects {
+    background-color: rgb(8, 180, 180);
     color: white;
     margin-top: 10px;
     margin-bottom: 10px;
