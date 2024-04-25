@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import JsonResponse
-from .models import Contact
+from .models import Contact, Projects
 
 # Create your views here.
 def home(request):

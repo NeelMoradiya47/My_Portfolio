@@ -1,11 +1,11 @@
 header,
 footer {
-    background-color: rgb(0, 0, 110);
+    background-color: rgb(0, 0, 130);
     color: white;
 }
 
 section {
-    background-color: rgba(0, 0, 80, 0.96);
+    background-color: rgba(0, 0, 95, 0.96);
     color: white;
 }
 
